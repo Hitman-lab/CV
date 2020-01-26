@@ -5,21 +5,24 @@
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Domine|Righteous&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat|Ubuntu&display=swap" rel="stylesheet">
 	
 	<!-- Bootstrap links -->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	
 	<!-- External CSS links -->
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 
+  	<!-- fontawesome icons -->
+  	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
 	<!-- JQuery links -->
 	<!-- <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -29,7 +32,7 @@
 
 	<!-- Nav Bar -->
 
-	<nav class="navigation-background navbar navbar-expand-md navbar-dark"> 	
+	<nav class="navbar navbar-expand-md navbar-dark"> 	
 		<a href="index.html" class="navbar-brand">
 			<!-- Circuit -->
 			<img src="images/dp1.jpeg" class="dp-image" alt="profile-picture">
@@ -39,27 +42,83 @@
       	</button>
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="" class="nav-link">Work</a></li>
-				<li class="nav-item"><a href="" class="nav-link">Skills</a></li>
+				<li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
 				<li class="nav-item"><a href="" class="nav-link">About</a></li>
 				<li class="nav-item"><a href="" class="nav-link">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
 	
-	<!-- Title -->
+	<!-- Title Heading -->
 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-6 title-section-image">
 				<img class="title-image" src="images/title3.png">
 			</div>
-			<div class="col-lg-6 title-section-text">
+			<div class="col-lg-6">
 				<h1 class="title-heading">I'm a web designer / developer.</h1>
-				<p>I have a passion for web design and love to create for web and mobile devices.</p>
+				<p class="title-para">I have a passion for web design and love to create for web and mobile devices.</p>
 			</div>
 		</div>
 	</div>
   </section>	
+  
+  <hr>
+
+<!-- work Section -->
+
+  <section id="work">
+  	<div class="work-section">
+  		<h1 class="work-heading">What I have done !</h1>
+  		<p>Websites which I have created using HTML, CSS, Javasctipt, JSP, Servlet, JDBC, AJAX and many more technologies used, visit GitHub for each project details and code.</p>
+  		<a href="https://github.com/Hitman-lab" target="_blank" class="btn btn-light">
+  			<i class="fab fa-github-alt fa-4x"></i>	
+  		</a>
+  	</div>
+
+  	<div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="2000">
+
+      <div class="carousel-inner">
+        
+        <div class="carousel-containers carousel-item active">
+        	<img class="testimonial-image" src="images/sc1.png" alt="dog-profile">
+        	<div class="carousel-contents"></div>
+      	</div>
+
+      	<div class="carousel-containers carousel-item">
+        	<img class="testimonial-image" src="images/sc2.png" alt="lady-profile">
+        	<div class="carousel-contents"></div>
+      	</div>
+
+      	<div class="carousel-containers carousel-item">
+        	<img class="testimonial-image" src="images/sc3.png" alt="lady-profile">
+        	<div class="carousel-contents"></div>
+      	</div>
+     
+      	<div class="carousel-containers carousel-item">
+        	<img class="testimonial-image" src="images/sc4.png" alt="lady-profile">
+        	<div class="carousel-contents"></div>
+      	</div>
+     
+      	<div class="carousel-containers carousel-item">
+        	<img class="testimonial-image" src="images/sc5.png" alt="lady-profile">
+        	<div class="carousel-contents"></div>
+      	</div>
+     
+      </div>
+
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <hr>
 </body>
 </html>
