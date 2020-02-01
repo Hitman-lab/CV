@@ -56,9 +56,10 @@ hr{
 /* navigation bar */
 
 .navbar{
-	/*background-color: #bbe1fa;*/
+	background-color: #bbe1fa;
 	/*background-color: #f1f9f9;*/
-	background-color: #e1f4f3;
+	/*background-color: #e1f4f3;*/
+	/*background-color: #e32249;*/
 
 	padding: 1.5% 3% ;
 }
@@ -146,4 +147,18 @@ hr{
 		width: 100%;	
 	 	height: 400px;
 	}
+}
+
+@media(max-width: 800px){
+	.dp-image{
+		display: none;
+	}
+
+	#website-title::before{
+		content: 'TANUJ';
+		color: #2c7873;
+		font-size: 1.5rem;
+		font-family: 'Merriweather', serif;
+	}
+
 }
