@@ -162,3 +162,9 @@ hr{
 	}
 
 }
+
+@media(max-width: 500px){
+	#testimonial-carousel{
+		display: none;
+	}
+}
