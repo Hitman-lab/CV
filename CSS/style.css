@@ -61,8 +61,24 @@ a{
 	color: #0c7b93;
 }
 
+.resume-button{
+	border: 2px solid #1b262c;
+	border-radius: 4px;
+	font-weight: 400;
+	/*background: #fff;*/
+	padding: 15px;
+	cursor: pointer;
+	margin-top: 5%;
+	font-weight: 600;
+}	
+
+.resume-button:hover{
+	background-color: #000;
+	border: 2px solid #000;
+}
+
 .title-para{
-	color: #2c787;
+	color: #758184;
 	margin-top: 5%;
 }
 
