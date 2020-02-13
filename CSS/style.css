@@ -40,17 +40,17 @@ a{
 }
 
 .container-fluid{
-	padding: 3% 15% 7%;
+	padding: 5% 15% 7%;
 	text-align: center;
 }
 
 .title-heading{
-	/*font-family: 'Archivo Black';*/
-	font-family: 'Saira Extra Condensed';
-	font-weight: 700;
-	font-size: 6rem;
+	/*font-family: 'Saira Extra Condensed';*/
+	font-family: 'Galada';
+	/*font-weight: 0;*/
+	font-size: 5rem;
 	text-transform: uppercase;
-	color: #29a19c;
+	color: #655c56;
 	/*color: #758184;*/
 }
 
@@ -311,6 +311,10 @@ h3{
 
 	.exp-heading{
 		text-align: left;
+	}
+
+	.title-heading{
+		font-size: 3rem;
 	}
 }
 
