@@ -213,17 +213,19 @@ h3{
 
 .exp-sub-heading2{
 	padding: 1% 0;
-	color: #0c7b93;
+	color: #2a7886;
 }
 
 .exp-duration{
-	/*text-align: right;*/
+	text-align: right;
 	color: red;
 }
 
 .exp-description{
 	line-height: 1.5;
 	color: #758184;
+	text-align: justify;
+	text-justify: auto;
 }
 
 
@@ -270,6 +272,12 @@ h3{
 	}
 
 	.exp-heading{
+		text-align: left;
+	}
+}
+
+@media(max-width: 992px){
+	.exp-duration{
 		text-align: left;
 	}
 }
