@@ -56,9 +56,10 @@ a{
 
 .subheading-address{
 	text-transform: uppercase;
-	font-family: 'Saira Extra Condensed';
-	font-size: 1.5rem;
-	color: #0c7b93;
+	/*font-family: 'Saira Extra Condensed';*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.3rem;
+	color: #758184;
 }
 
 .resume-button{
@@ -212,6 +213,7 @@ h3{
 
 .exp-sub-heading2{
 	padding: 1% 0;
+	color: #0c7b93;
 }
 
 .exp-duration{
@@ -256,8 +258,18 @@ h3{
 
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
 	#testimonial-carousel{
 		display: none;
+	}
+}
+
+@media(max-width: 550px){
+	.work-heading{
+		text-align: left;
+	}
+
+	.exp-heading{
+		text-align: left;
 	}
 }
