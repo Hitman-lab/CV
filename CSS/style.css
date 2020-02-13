@@ -186,6 +186,19 @@ h3{
 	font-family: 'Saira Extra Condensed', sans-serif;
 }
 
+/* Experience Section */
+
+#experience{
+	padding: 0 15%;
+}
+
+.exp-heading{
+	color: #347474;
+	text-align: center;
+	font-weight: bold;
+}
+
+
 
 
 /* Media Queries */
