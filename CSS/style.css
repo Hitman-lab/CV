@@ -192,13 +192,37 @@ h3{
 	padding: 0 15%;
 }
 
+.first-row{
+	margin-top: 7%;
+}
+
 .exp-heading{
 	color: #347474;
 	text-align: center;
 	font-weight: bold;
+	margin-bottom: 3%;
 }
 
+.exp-sub-heading1{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
 
+.exp-sub-heading2{
+	padding: 1% 0;
+}
+
+.exp-duration{
+	/*text-align: right;*/
+	color: red;
+}
+
+.exp-description{
+	line-height: 1.5;
+	color: #758184;
+}
 
 
 /* Media Queries */
