@@ -52,10 +52,10 @@ a{
 	text-transform: uppercase;
 	color: #655c56;
 	/*color: #758184;*/
+	transition: transform 0.5s;
 }
 
 .title-heading:hover{
-	transition: 0.5s;
 	transform: translateX(-50px);
 }
 
@@ -204,12 +204,12 @@ h3{
 }
 
 .first-row{
+	transition: transform 0.5s;
 	margin-top: 7%;
 }
 
 .first-row:hover{
-	transform: translateX(-20px);
-	transition: transform 0.5s;
+	transform: translateX(-30px);
 }
 
 .exp-heading{
